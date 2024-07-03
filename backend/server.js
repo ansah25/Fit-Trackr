@@ -12,7 +12,7 @@ const app = express()
 // middleware
 app.use(cors(
     {
-        origin: ["https://fit-trackr-api.vercel.app"],
+        origin: ["https://fit-trackr-frontend.vercel.app"],
         methods: ["POST", "GET", "DELETE", "PATCH"],
         credentials: true
     }
